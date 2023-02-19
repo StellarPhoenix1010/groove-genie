@@ -1,0 +1,52 @@
+{
+  "name": "minimal-react-starter",
+  "version": "0.1.0",
+  "description": "Minimal react starter project",
+  "main": "src/index.js",
+  "engines": {
+    "node": "16"
+  },
+  "scripts": {
+    "compile": "webpack",
+    "build": "webpack -p",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "babel",
+    "minimal",
+    "starter"
+  ],
+  "author": "Andrew H Farmer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ahfarmer/minimal-react-starter.git"
+  },
+  "dependencies": {
+    "16": "^0.0.2",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@emotion/react": "^11.10.5",
+    "@mantine/core": "^5.10.3",
+    "@mantine/hooks": "^5.10.3",
+    "@react-three/drei": "^9.46.5",
+    "@react-three/fiber": "^8.9.1",
+    "@types/three": "^0.146.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.0",
+    "bootstrap": "^5.2.3",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.3.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.5",
+    "tachyons": "^4.12.0",
+    "three": "^0.147.0",
+    "webpack": "^5.75.0",
+    "webpack-dev-middleware": "^3.1.3"
+  }
+}
